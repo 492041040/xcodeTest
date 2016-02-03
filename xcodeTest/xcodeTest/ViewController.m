@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+- (IBAction)submit:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,4 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)submit:(id)sender {
+    //test
+}
 @end
